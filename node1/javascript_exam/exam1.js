@@ -10,7 +10,7 @@ function doSomething(a, b, c) {
 
     return max;
 
-    // return (Math.max(a,b,c));    =>이렇게 한줄로 써도됨
+    // return (Math.max(a,b,c));    =>이렇게 한줄로 써도 실행됨
 }
 
 console.log(doSomething(3, 1, 2));
