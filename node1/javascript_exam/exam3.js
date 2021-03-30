@@ -8,7 +8,6 @@
 
 function createArray(count, min, max) {
     let arr = [];
-
     for(let i = 0; i < count; ++i){
         let num = Math.floor(Math.random() * (max - min + 1) + min);
         arr[i] = num;
