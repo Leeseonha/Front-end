@@ -8,3 +8,7 @@ function equals(p1, p2) {
 }
 
 console.log(equals(person1, person2));
+
+
+// 출력
+// true

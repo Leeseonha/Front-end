@@ -5,3 +5,8 @@ let p = person1;
 
 console.log(person1 == person2);
 console.log(person1 == p);
+
+
+// 출력
+// false
+// true

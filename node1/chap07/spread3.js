@@ -10,3 +10,9 @@ console.log(person2);
 
 let person3 = { name, age };
 console.log(person3);
+
+
+// 출력
+// { name: '홍길동', age: 16 }
+// { name: '홍길동', age: 16 }
+// { name: '홍길동', age: 16 }

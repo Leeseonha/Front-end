@@ -10,3 +10,8 @@ function createPerson() {
   person2.age = 20
   console.log(person1)
   console.log(person2)  
+
+
+// 출력
+// { name: '임꺽정', age: 16 }
+// { name: '홍길동', age: 20 }

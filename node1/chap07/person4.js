@@ -8,3 +8,8 @@ function createPerson(s, i) {
   
   console.log(person1);
   console.log(person2);  
+
+
+// 출력
+// { name: '홍길동', age: 16 }
+// { name: '임꺽정', age: 18 }

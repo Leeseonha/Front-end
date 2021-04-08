@@ -1,11 +1,17 @@
 // 속성 탐색
 let rectangle = { 
-    width: 5, 
-    height: 7, 
-    area : function() { return this.width * this.height; }
-  };
+  width: 5, 
+  height: 7, 
+  area : function() { return this.width * this.height; }
+};
   
-  for (let key in rectangle) {
-    let value = rectangle[key];
-    console.log("%s: %s", key, value);
-  }  
+for (let key in rectangle) {
+  let value = rectangle[key];
+  console.log("%s: %s", key, value);
+}  
+
+
+// 출력
+// width: 5
+// height: 7
+// area: function() { return this.width * this.height; }

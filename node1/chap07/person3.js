@@ -6,3 +6,8 @@ person["age"] = 16;
 
 console.log(person["name"]);
 console.log(person["age"]);
+
+
+// 출력
+// 홍길동
+// 16
