@@ -5,3 +5,7 @@ let info = { age: 20, department: "소프", year: 2 };
 
 Object.assign(person, info);
 console.log(person);
+
+
+// 출력
+// { name: '홍길동', age: 20, department: '소프', year: 2 }

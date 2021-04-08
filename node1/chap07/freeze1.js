@@ -13,3 +13,8 @@ Object.freeze(person2);
 person2.age = 20;
 person2.department = "소프";
 console.log(person2);
+
+
+// 출력
+// { name: '홍길동', age: 20, department: '소프' }
+// { name: '홍길동', age: 16 }
