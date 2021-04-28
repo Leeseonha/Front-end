@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <style>
+    body {
+      font-size: 11pt;
+    }
+
+    div#app {
+      margin: 20px auto;
+      padding: 20px;
+      width: 300px;
+      border: 1px solid gray;
+      box-shadow: 5px 5px 5px #aaa;
+    }
+
+    div.count {
+      padding: 5px;
+      width: 250px;
+      background-color: #bfb;
+      border: 1px solid black;
+      margin: 10px;
+      text-align: center;
+      font-size: 40px;
+      line-height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <h1>count</h1>
+    <div class="count" v-on:click="onClick">{{ count }}</div>
+  </div>
+  <script type="text/javascript">
+    var app = new Vue({
+      el: '#app',
+      data: {
+        count: 0
+      },
+      methods: {
+        onClick() {
+          ++this.count;
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
