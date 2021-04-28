@@ -1,3 +1,10 @@
+// cloneObject 함수를 구현하시오.
+// 이 함수는 파라미터 객체를 복제(clone)해서 리턴해야 한다.
+
+// 출력
+// { name: '홍길동', age: 16 }
+// { width: 11, height: 22 }
+
 function cloneObject(obj) {
     return Object.assign({}, obj);
 }

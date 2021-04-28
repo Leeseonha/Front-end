@@ -1,3 +1,10 @@
+// countProperty 함수를 구현하시오.
+//    이 함수는 파라미터 객체의 파라미터의 수를 리턴한다. (멤버 변수의 수)
+
+//    출력
+// 2
+// 4
+
 function countProperty(obj) {
     return Object.keys(obj).length;
 }
