@@ -11,7 +11,10 @@ export default {
     return { time: null };
   },
   mounted: function() {
-    let callback = () => this.time = moment().format("HH:mm:ss")
+    let callback = () => {
+      this.time = moment().format("HH:mm:ss");
+      console.log(this.time);
+    }
     callback();
     setInterval(callback, 1000);
   }
