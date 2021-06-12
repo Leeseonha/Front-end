@@ -16,7 +16,10 @@ export default {
       console.log(this.time);
     }
     callback();
-    setInterval(callback, 1000);
+    this.timerId = setInterval(callback, 1000);
+  },
+  beforeDestroy: function() {
+    clearInterval(this.timerId);
   }
 }
 </script>
